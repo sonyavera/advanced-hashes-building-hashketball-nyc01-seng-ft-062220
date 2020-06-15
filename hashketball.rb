@@ -4,8 +4,9 @@ def game_hash
       team_name: ""
       colors: ["",""]
       players: [
-        {:key => value}, 
-        {:key => value}
+        :player_name => value, 
+        :number => value,
+        :show => value
         ]
     }
     away: {
